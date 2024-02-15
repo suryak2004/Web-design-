@@ -1,0 +1,29 @@
+#Creating a Image to Website hyperlink
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-image: url(ball.jpeg);
+        background-size: cover;
+    }
+</style>
+<body>
+    <center>
+        <h2 style="color:aliceblue">Greatest Of All Time</h2>
+        <img src="football.jpeg" alt="GOATS" usemap="#Football">
+
+        <map name="Football">
+            <area alt="Maradona"  href="https://en.wikipedia.org/wiki/Diego_Maradona" coords="3,1,68,182" shape="rect">
+          <area alt="Messi"  href="https://en.wikipedia.org/wiki/Lionel_Messi" coords="71,2,136,180"  shape="rect" >
+          <area alt="Ronaldo" href="https://en.wikipedia.org/wiki/Cristiano_Ronaldo" coords="207,0,273,184" shape="rect" >
+          <area alt="Pele" href="https://en.wikipedia.org/wiki/Pel%C3%A9" coords="138,0,204,183" shape="rect">
+        </map>
+    
+    </center>
+</body>
+</html>
